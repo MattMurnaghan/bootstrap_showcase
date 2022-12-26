@@ -2,6 +2,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container-wrapper {}
+
+.container-wrapper--red{
+    background-color: #f05f40;
+}
+
 .alert-container {}
 
 .callout-container {
@@ -26,6 +32,25 @@ body {
 .callout-container {}
 
 .quotes-container {}
+
+.features-container{}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* Page headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
 
 /* Overlays */
 
@@ -89,6 +114,7 @@ body {
     width: 75px;
     height: 5px;
     border: 0;
+    background-color: #444;
 }
 
 .block-divider--orange {
@@ -96,7 +122,7 @@ body {
 }
 
 .block-divider--short {
-    width: 35px¡;
+    width: 35px;
 }
 
 /* Jumbotron */
